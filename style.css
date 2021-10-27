@@ -1,0 +1,89 @@
+/* Logo font */
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap");
+
+/* h fonts  yeseva one*/
+@import url("https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap");
+
+/* body fonts monterssat */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&family=Yeseva+One&display=swap");
+
+body {
+  background: #fff;
+  font-family: "Montserrat", sans-serif";
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Yeseva One", cursive;
+}
+
+.logo {
+  font-family: "Alex Brush", cursive;
+  font-size: 64px;
+}
+
+.text-gold {
+  color: #daa520;
+}
+
+.nav a:hover {
+  color: #daa520;
+}
+
+.btn-outline-secondary:hover {
+  color: #fff;
+  background-color: #daa520;
+  border-color:#daa520;
+}
+
+
+.hr-home {
+  width: 40vw;
+  margin: auto;
+  margin-bottom: 1.2em;
+}
+
+hr {
+  width: 50vw;
+  margin: auto;
+}
+
+.lp-img {
+  width: 60%;
+  max-height: 70%;
+}
+
+
+.left-intro-btn {
+  width: 100%;
+}
+
+.location-home-img {
+  max-height: 832px;
+  max-width: 632px;
+}
+
+#footer {
+  height: 10vh;
+}
+
+.footer-flex {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fab {
+  margin: 0 10px;
+}
+
+
+/* OfficiantsHTML */
+
+.officiant-1-pfp {
+    width: 20%;
+    border-radius: 50%;
+}
